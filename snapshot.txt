@@ -1,9 +1,9 @@
 This snapshot was automatically generated on
-Wed, 31 Jan 2018 00:37:09 +0000
+Tue, 19 Jun 2018 23:43:13 +0000
 
-Version: 7.1.14
+Version: 7.2.7
 Branch: HEAD
-Build: C:\php-snap-build\php71\vc14\x64\obj\Release
+Build: C:\php-snap-build\php72\vc15\x64\obj\Release
 
 Built-in Extensions
 ===========================
@@ -30,12 +30,18 @@ zlib
 libxml
 dom
 PDO
-Phar
+openssl
 SimpleXML
 xml
 wddx
 xmlreader
 xmlwriter
+curl
+ftp
+sqlite3
+Phar
+mbstring
+mysqli
 
 
 Dependency information:
@@ -43,8 +49,8 @@ Module: php_curl.dll
 ===========================
 	libssh2.dll
 	nghttp2.dll
-	libeay32.dll
-	ssleay32.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_enchant.dll
 ===========================
@@ -52,25 +58,25 @@ Module: php_enchant.dll
 
 Module: php_ftp.dll
 ===========================
-	ssleay32.dll
-	libeay32.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_intl.dll
 ===========================
-	icuuc57.dll
-	icuin57.dll
-	icuio57.dll
+	icuuc61.dll
+	icuin61.dll
+	icuio61.dll
 
 Module: php_ldap.dll
 ===========================
 	libsasl.dll
-	ssleay32.dll
-	libeay32.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_openssl.dll
 ===========================
-	ssleay32.dll
-	libeay32.dll
+	libcrypto-1_1-x64.dll
+	libssl-1_1-x64.dll
 
 Module: php_pgsql.dll
 ===========================
@@ -78,7 +84,11 @@ Module: php_pgsql.dll
 
 Module: php_snmp.dll
 ===========================
-	libeay32.dll
+	libcrypto-1_1-x64.dll
+
+Module: php_sodium.dll
+===========================
+	libsodium.dll
 
 Module: php_pdo_pgsql.dll
 ===========================
